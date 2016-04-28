@@ -10,4 +10,8 @@ router.get('/mike', function(req, res, next) {
   res.render('mike', { title: 'Mike' });
 });
 
+router.get('/hannah', function(req, res, next) {
+  res.send("Hannah is the git master");
+});
+
 module.exports = router;
